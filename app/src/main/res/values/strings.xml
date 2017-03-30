@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MainActivity</string>
+    <string name="mygame">My Game</string>
+    <string name="start">START</string>
+    <string name="Exit">exit</string>
+    <string name="Highscore">Highscore</string>
+    <string name="Feedback">feedback</string>
+    <string name="name">Enter name</string>
+    <string name="email">Enter email</string>
+    <string name="RC">Enter subject</string>
+    <string name="feedback">The Feedback</string>
+    <string name="submit">submit</string>
+    <string name="Clear">Clear</string>
+    <string name="title">Are you sure to exit</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MainActivity</string>
+    <string name="Clear">واضح</string>
+    <string name="Feedback">ردود الفعل</string>
+    <string name="Exit">ىخرج</string>
+    <string name="Highscore">درجة عالية </string>
+    <string name="RC">ادخل الموضوع </string>
+    <string name="email">ادخل بريدك </string>
+    <string name="feedback">المراجعات </string>
+    <string name="mygame">بلدي لعبة </string>
+    <string name="name">أدخل الاسم </string>
+    <string name="start">بداية </string>
+    <string name="submit">عرض </string>
+    <string name="title">هل أنت متأكد من الخروج</string>
+    <string name="Yes">نعم فعلا </string>
+    <string name="No">لا</string>
+</resources>

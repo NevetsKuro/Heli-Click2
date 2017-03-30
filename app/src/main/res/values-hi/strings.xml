@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MainActivity</string>
+    <string name="mygame">मेरा खेल</string>
+    <string name="start">प्रारंभ</string>
+    <string name="Exit">बाहर निकलें</string>
+    <string name="Highscore">उच्च स्कोर</string>
+    <string name="Feedback">प्रतिक्रि या</string>
+    <string name="name">नाम</string>
+    <string name="email">ईमेल</string>
+    <string name="RC">जगह दर्ज</string>
+    <string name="submit">जमा करें</string>
+    <string name="Clear">स्पष्ट</string>
+    <string name="feedback">प्रतिक्रि या</string>
+    <string name="title">क्या आप वाकई बाहर निकलना चाहते हों</string>
+    <string name="Yes">हाँ </string>
+    <string name="No">नहीं </string>
+</resources>

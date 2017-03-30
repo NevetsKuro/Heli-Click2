@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MainActivity</string>
+    <string name="mygame">Mi Juego</string>
+    <string name="start">comienzo</string>
+    <string name="Exit">salida</string>
+    <string name="Highscore">Puntuación más alta</string>
+    <string name="Feedback">realimentación</string>
+    <string name="name">Ingrese su nombre</string>
+    <string name="email">correo electrónico</string>
+    <string name="RC">Entrar en el lugar</string>
+    <string name="feedback">The Feedback</string>
+    <string name="submit">enviar</string>
+    <string name="Clear">Claro</string>
+    <string name="title">Estás seguro de salir</string>
+    <string name="Yes">sí </string>
+    <string name="No">no</string>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:background="@drawable/grassbg1"
+    android:paddingTop="20dp"
+    tools:context="com.example.rodneydsouza91.mainactivity.MainActivity"
+    android:visibility="visible"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/text1"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mygame"
+        android:textSize="38sp"
+        android:paddingLeft="150dp"
+        android:paddingRight="150dp"
+        android:paddingEnd="200dp"
+        android:paddingTop="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#240ee9" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        android:gravity="center"
+        android:layout_below="@+id/text1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Highscore"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Feedback"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/button4"
+        android:text="@string/Exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_alignStart="@+id/button1" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/kingdom"
+        android:background="#13d8e2da"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignStart="@+id/imageButton3" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton1"
+        android:src="@drawable/india"
+        android:visibility="visible"
+        android:background="#75c8fe"
+        android:layout_above="@+id/button2"
+        android:layout_alignEnd="@+id/text1" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3"
+        android:src="@drawable/saudiarabia"
+        android:background="#00ffffff"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_alignEnd="@+id/text1" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton4"
+        android:src="@drawable/france"
+        android:background="#00ffffff"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignStart="@+id/imageButton3"
+        android:adjustViewBounds="false"
+        android:cropToPadding="true"
+        android:layout_alignEnd="@+id/imageButton3" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/spain"
+        android:background="#75c8fe"
+        android:layout_alignBottom="@+id/text1"
+        android:layout_alignEnd="@+id/text1" />
+</RelativeLayout>
